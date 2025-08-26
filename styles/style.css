@@ -29,7 +29,7 @@ ul {
     margin: 0px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    gap: 16px;
 }
 
 h2 {
@@ -42,7 +42,7 @@ ul li {
 }
 
 ul img {
-    height: 200px;
+    width: 300px;
 }
 
 main {
