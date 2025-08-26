@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Поиск</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <nav>
+        <a class="link" href="index.html">Главная</a>
+        <a class="link" href="search.html">Поиск</a>
+        <a class="link" href="cart.html">Корзина</a>
+    </nav>
+    <main>
+        <input type="search" id="searchInput" placeholder="Поиск..." />
+        <h1 id="searchResultTitle">Результат по запросу «»</h1>
+        <ul id="productsList">
+            <li data-name="Macintosh" data-price="2079" data-image="images/macintosh.jpg">
+                <img src="images/macintosh.jpg" alt="Macintosh">
+                <h2>Macintosh</h2>
+                <p>$2079</p>
+                <button class="add-to-cart">Добавить в корзину</button>
+            </li>
+            <li data-name="Macintosh" data-price="2079" data-image="images/macintosh.jpg">
+                <img src="images/macintosh.jpg" alt="Macintosh">
+                <h2 class="vintage">Macintosh</h2>
+                <p>$2079</p>
+                <button class="add-to-cart">Добавить в корзину</button>
+            </li>
+            <li data-name="Macintosh" data-price="2079" data-image="images/macintosh.jpg">
+                <img src="images/macintosh.jpg" alt="Macintosh">
+                <h2>Macintosh</h2>
+                <p>$2079</p>
+                <button class="add-to-cart">Добавить в корзину</button>
+            </li>
+            <li data-name="iPod" data-price="489" data-image="images/ipod.jpg">
+                <img src="images/ipod.jpg" alt="iPod">
+                <h2>iPod</h2>
+                <p>$489</p>
+                <button class="add-to-cart">Добавить в корзину</button>
+            </li>
+            <li data-name="iMac" data-price="1099" data-image="images/imac.webp">
+                <img src="images/imac.webp" alt="iMac">
+                <h2>iMac</h2>
+                <p>$1099</p>
+                <button class="add-to-cart">Добавить в корзину</button>
+            </li>
+        </ul>
+
+    </main>
+    <script src="scripts/main.js"></script>
+</body>
+
+</html>

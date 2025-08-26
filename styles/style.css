@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+}
+
+nav {
+    padding: 16px;
+    background-color: black;
+}
+
+nav a {
+    color: white;
+    margin-right: 16px;
+    text-decoration: none;
+}
+ 
+nav a:last-child {
+    margin-right: 0;
+}
+
+p {
+    font-size: 18px;
+    margin: 0px;
+}
+
+ul {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+h2 {
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+
+ul li {
+    margin-top: 16px;
+}
+
+ul img {
+    height: 200px;
+}
+
+main {
+    margin: 16px;
+}
+
+.vintage {
+    font-family: serif;
+}
